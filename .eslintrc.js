@@ -33,7 +33,7 @@ module.exports = {
     'no-console': [
       'error',
       {
-        allow: [ 'log' ]
+        allow: [ 'log', 'error' ]
       }
     ]
   }
