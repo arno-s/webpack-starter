@@ -14,8 +14,5 @@
     "@babel/preset-react": "^7.0.0-beta.44",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
-  },
-  "devDependencies": {
-    "@vleesbrood/webpack-starter-cli": "^3.0.0"
   }
 }
