@@ -5,5 +5,4 @@ script:
   - npm link
   - cd example
   - npm install
-  - npm link @vleesbrood/webpack-starter-cli
   - npm run build
