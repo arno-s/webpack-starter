@@ -41,10 +41,7 @@ const path = require('path');
 const SRC = './src';
 
 const webpack = {
-  // IMPORTANT: this must be an array!
-  entry: [
-    'index.jsx'
-  ],
+  entry: 'index.jsx',
 
   resolve: {
       assets: path.join(__dirname, SRC, 'assets'),
@@ -87,5 +84,3 @@ $ npm install --save @babel/core @babel/preset-react
   "presets": [ "@babel/preset-react" ]
 }
 ```
-
-The `entry` property MUST be an array!
