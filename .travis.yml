@@ -5,4 +5,5 @@ script:
   - npm link
   - cd example
   - npm install
+  - npm run lint
   - npm run build
