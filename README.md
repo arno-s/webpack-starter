@@ -4,20 +4,38 @@
 npm install -g @vleesbrood/webpack-starter-cli
 ```
 
-> a webpack config in a cli
+> extensible webpack starter kit cli tool
 
 ## pre-requisites
 
 - Node & NPM
 
-## commands
+## usage
 
 ```bash
 # start a hot-reloading server
 $ starter serve
 
+Run a live-reloading server with frontend
+
+Options:
+  --help         Show help                                             [boolean]
+  -c, --config   pass the configuration path    [default: "./starter.config.js"]
+  -m, --mode     specify the compilation mode           [default: "development"]
+  -p, --port     specify the port                                [default: 9000]
+  -h, --host     specify the host                         [default: "127.0.0.1"]
+  -v, --version  Show version number                                   [boolean]
+
 # build the project
 $ starter build
+
+Build the application
+
+Options:
+  --help         Show help                                             [boolean]
+  -c, --config   pass the configuration path    [default: "./starter.config.js"]
+  -w, --watch    watch source and compile on changes            [default: false]
+  -v, --version  Show version number                                   [boolean]
 ```
 
 ## features
