@@ -4,6 +4,9 @@ node_js:
 script:
   - npm link
   - npm run lint
-  - cd example
+  - cd examples/react
+  - npm install
+  - npm run build
+  - cd ../minimum
   - npm install
   - npm run build
