@@ -10,3 +10,6 @@ script:
   - cd ../minimum
   - npm install
   - npm run build
+  - cd ../react-lazyload
+  - npm install
+  - npm run build
