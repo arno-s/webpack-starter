@@ -1,0 +1,20 @@
+{
+  "name": "@vleesbrood/example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "starter build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-lazyload": "^2.3.0"
+  }
+}
