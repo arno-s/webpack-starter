@@ -1,6 +1,6 @@
 {
   "name": "@vleesbrood/webpack-starter-cli",
-  "version": "4.4.0",
+  "version": "4.5.0",
   "description": "webpack starter cli tool",
   "keywords": [
     "webpack",
@@ -16,6 +16,7 @@
     "url": "git+https://github.com/arnoschutijzer/webpack-starter-cli.git"
   },
   "scripts": {
+    "release": "npm publish --access=public",
     "lint": "eslint lib --ext .js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
