@@ -2,3 +2,4 @@ examples
 .gitattributes
 .eslintrc.js
 yarn.lock
+.travis.yml
