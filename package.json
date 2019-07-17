@@ -1,6 +1,6 @@
 {
   "name": "@vleesbrood/webpack-starter-cli",
-  "version": "4.6.0",
+  "version": "4.6.1",
   "description": "webpack starter cli tool",
   "keywords": [
     "webpack",
