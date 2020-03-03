@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "examples/minimum/package.json",
+        "examples/react-lazyload/package.json",
+        "examples/react/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
