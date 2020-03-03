@@ -23,8 +23,8 @@
   "author": "Arno Schutijzer",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "7.5.5",
-    "@babel/preset-env": "7.5.5",
+    "@babel/core": "7.8.6",
+    "@babel/preset-env": "7.8.6",
     "babel-loader": "8.0.6",
     "chalk": "2.4.2",
     "critters-webpack-plugin": "2.4.0",
