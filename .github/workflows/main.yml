@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [ '10', '12', '14' ]
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions/setup-node@v2-beta
+      with:
+          node-version: ${{ matrix.node }}
+
+    - name: install
+      run: npm install
+
+    - name: lint
+      run: npm run lint
+
+    - name: link binary
+      run: npm link
+
+    - name: build react example
+      run: |
+            cd examples/react
+            npm install
+            npm run build
+            cd ../..
+
+    - name: build minimal example
+      run: |
+            cd examples/minimum
+            npm install
+            npm run build
+            cd ../..
+
+    - name: build react lazyload example
+      run: |
+            cd examples/react-lazyload
+            npm install
+            npm run build
+            cd ../..
