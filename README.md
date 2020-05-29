@@ -1,4 +1,4 @@
-# webpack-starter-cli [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Farnoschutijzer%2Fwebpack-starter-cli.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Farnoschutijzer%2Fwebpack-starter-cli?ref=badge_shield) [![Build Status](https://travis-ci.org/arnoschutijzer/webpack-starter-cli.svg?branch=master)](https://travis-ci.org/arnoschutijzer/webpack-starter-cli) 
+# webpack-starter-cli [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Farnoschutijzer%2Fwebpack-starter-cli.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Farnoschutijzer%2Fwebpack-starter-cli?ref=badge_shield) ![CI](https://github.com/arnoschutijzer/webpack-starter-cli/workflows/CI/badge.svg)
 
 ```bash
 npm install -g @vleesbrood/webpack-starter-cli
