@@ -41,7 +41,7 @@
     "webpack": "4.43.0",
     "webpack-dev-server": "3.11.0",
     "webpack-merge": "4.2.2",
-    "yargs": "15.4.0"
+    "yargs": "15.4.1"
   },
   "devDependencies": {
     "eslint": "7.4.0"
