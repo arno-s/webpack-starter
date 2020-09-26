@@ -44,7 +44,7 @@
     "yargs": "16.0.3"
   },
   "devDependencies": {
-    "eslint": "7.9.0"
+    "eslint": "7.10.0"
   },
   "engines": {
     "node": ">=12.18.2"
