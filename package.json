@@ -35,7 +35,7 @@
     "lodash": "4.17.20",
     "mini-css-extract-plugin": "0.12.0",
     "rimraf": "3.0.2",
-    "sass": "1.26.12",
+    "sass": "1.27.0",
     "sass-loader": "10.0.2",
     "url-loader": "4.1.0",
     "webpack": "4.44.2",
