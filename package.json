@@ -40,7 +40,7 @@
     "url-loader": "4.1.1",
     "webpack": "4.44.2",
     "webpack-dev-server": "3.11.0",
-    "webpack-merge": "5.4.1",
+    "webpack-merge": "5.5.0",
     "yargs": "16.1.1"
   },
   "devDependencies": {
